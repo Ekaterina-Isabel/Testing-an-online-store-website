@@ -16,15 +16,17 @@
 ## Задача
 
 Комплексно протестировать сайт по следующим пунктам:
-1. Проверка требований спецификации.
-2. Тестирование формы регистрации и авторизации.
-3. Исследование сайта, разработка диаграммы состояний и переходов товара.
-4. Резработка сценариев тестирования и оценка трудозатрат.
-5. Тестирование методом серого ящика черех API.
-6. Тестирование безопасности.
-7. Тестирование UI.
-8. Регрессионное тестирование.
-9. Составление приемочных сценариев.
+1. [Проверка требований спецификации.](https://github.com/Ekaterina-Isabel/Testing-an-online-store-website?tab=readme-ov-file#1-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0-%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8)
+2. [Тестирование формы регистрации и авторизации.](https://github.com/Ekaterina-Isabel/Testing-an-online-store-website?tab=readme-ov-file#2-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%84%D0%BE%D1%80%D0%BC%D1%8B-%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8)
+3. [Исследование сайта, разработка диаграммы состояний и переходов товара.](https://github.com/Ekaterina-Isabel/Testing-an-online-store-website?tab=readme-ov-file#3-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B-%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B9-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D0%BE%D0%B2-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0)
+4. [Резработка сценариев тестирования и оценка трудозатрат.](https://github.com/Ekaterina-Isabel/Testing-an-online-store-website?tab=readme-ov-file#4-%D1%80%D0%B5%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B5%D0%B2-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B0-%D1%82%D1%80%D1%83%D0%B4%D0%BE%D0%B7%D0%B0%D1%82%D1%80%D0%B0%D1%82)
+5. [Тестирование методом серого ящика черех API.](https://github.com/Ekaterina-Isabel/Testing-an-online-store-website?tab=readme-ov-file#5-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BC-%D1%81%D0%B5%D1%80%D0%BE%D0%B3%D0%BE-%D1%8F%D1%89%D0%B8%D0%BA%D0%B0-%D1%87%D0%B5%D1%80%D0%B5%D1%85-api)
+6. [Тестирование безопасности.](https://github.com/Ekaterina-Isabel/Testing-an-online-store-website?tab=readme-ov-file#6-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8)
+7. [Тестирование UI.](https://github.com/Ekaterina-Isabel/Testing-an-online-store-website?tab=readme-ov-file#7-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-ui)
+8. [Регрессионное тестирование.](https://github.com/Ekaterina-Isabel/Testing-an-online-store-website?tab=readme-ov-file#8-%D1%80%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+9. [Составление приемочных сценариев.](https://github.com/Ekaterina-Isabel/Testing-an-online-store-website?tab=readme-ov-file#9-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BE%D1%87%D0%BD%D1%8B%D1%85-%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B5%D0%B2)
+
+**Результат тестирования:** По результатам тестирования были созданы баг-репорты в YouTrack ([ссылкка на YouTrack](https://ekaterinakuz.youtrack.cloud/agiles/159-2/current))
 
 #### 1. Проверка требований спецификации
 
@@ -76,7 +78,6 @@
 **Задача:**
 1. Протестировать UI нового тестового стенда по прототипу (макету) в Figma в браузерах Google Chrome и Firefox.
 2. Завести найденные баги в YouTrack. Можно создать одну карточку на тестирование UI, но в теле бага обязательно указать браузер, где найден баг.
-3. 
 
 #### 8. Регрессионное тестирование
 
@@ -92,8 +93,6 @@
 1. Скопировать и заполнить [шаблон приёмочных тестов](https://docs.google.com/spreadsheets/d/1LYdHx8tvdDIQSzJLHM0mjdRGzhiNPJS-YHLE0kg4p6w/edit#gid=0). Составить сценарии на основе [аналитики](https://clear-bag-041.notion.site/Skillbox-a055fa1f369a4a1f8c2aa5e172025a6b).
 2. Прикрепить приёмочные сценарии к задаче «Создание приёмочных тестов» в YouTrack.
 
-
-По результатам тестирования были созданы баг-репорты в YouTrack ([ссылкка на YouTrack](https://ekaterinakuz.youtrack.cloud/agiles/159-2/current))
 
 ## Версии тестовых стендов сайта интернет-магазина:
 
