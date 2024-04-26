@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "2bb3e9a5-687e-4037-b273-ccd1adf81ad5",
+		"name": "Интернет магазин \"Skillbox\"",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10596757"
+	},
+	"item": [
+		{
+			"name": "Получение списка товаров",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение карточки конкретного товара",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/490951",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"490951"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание карточки товара",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Маркер. Фломастер\",\r\n    \"slug\": \"marker\",\r\n      \"manage_stock\": false,\r\n    \"stock_quantity\": 0,\r\n    \"description\": \"фломастер\",\r\n    \"price\": \"1000\",\r\n    \"regular_price\": \"2000\",\r\n    \"sale_price\": \"3000\",\r\n      \"images\": [\r\n      {\r\n        \"src\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Artful_highlighter_pens_drawing_on_paper.jpg/300px-Artful_highlighter_pens_drawing_on_paper.jpg\"\r\n      }\r\n    ],\r\n    \"categories\": [\r\n      {\r\n        \"id\": 16,\r\n        \"name\": \"Электроника\",\r\n        \"slug\": \"electronics\"\r\n      }\r\n    ]\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редактирование карточки товара",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Букварь\",\r\n    \"slug\": \"bukvar\",\r\n    \"manage_stock\": true,\r\n    \"stock_quantity\": 1,\r\n    \"description\": \"описание\",\r\n    \"price\": \"10\",\r\n    \"regular_price\": \"20\",\r\n    \"sale_price\": \"30\",\r\n    \"images\": [\r\n        {\r\n            \"src\": \"https://img3.labirint.ru/rc/2cfa9ffbc7a36e0e5aa8c1958f8fc721/363x561q80/books82/813143/cover.jpg?1628166539\"\r\n        }\r\n    ],\r\n    \"categories\": [\r\n        {\r\n            \"id\": 28,\r\n            \"name\": \"Книги\",\r\n            \"slug\": \"books\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/490951",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"490951"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление карточки товара",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/492037",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"492037"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "iamfinallytester",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "skillboxadmin",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
